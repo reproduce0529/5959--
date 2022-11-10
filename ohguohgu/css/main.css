@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: EarlyFontDiary;
+}
+
+.header{
+    text-align: center;
+
+}
+
+.img{
+    margin-top: 80px  ;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #888;
+}
+
+a:hover{
+  color: #FD8A69;
+}
+
+
+label{
+    color: #FD8A69;
+}
+
+input{
+    color : #FD8A69;
+}
+
+
+  input:focus + label {
+    color: #FD8A69;
+  }
+
+  .section{
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  #loginbnt{
+    background-color: #FD8A69;
+    color: white;
+    border: #FD8A69;
+  }
+
+  #loginbnt:active{
+    background-color: white !important;
+    color: #FD8A69;
+    
+  }
+
+
+  body{
+
+    text-align: center;
+  }
+
+  h2{
+    margin-top: 20px;
+    color: #FD8A69;
+  }
+
+
+  .alrim{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .element {
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    border: 1px #FD8A69 solid;
+    position: relative;
+  }
+
+  .title{
+    display: inline-block;
+    color: black;
+    margin-top: 10px;
+    border-bottom: 1px #FD8A69 solid;
+
+  }
+
+  .element .like img{
+    width: 25px;
+  }
+
+  .element .comments img{
+    width: 25px;
+  }
+
+  .like{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 45px;
+  }
+
+
+  .comments{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 45px;
+  }
+
+  .form-select{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .container{
+    height: 200px;
+  }
+
+  .comment-box{
+    max-width: 100%;
+  }
+
+  .input-group{
+    width: 100%;
+  }
+
+  .comment-box{
+    text-align: center;
+  }
+
+  h3{
+    margin-top: 20px;
+    color:#FD8A69;
+  }
+
+  form{
+    margin: auto;
+  }
+
+  .audio{
+    margin-top: 40px;
+  }
+
+  .input-group{
+    justify-content: center;
+  }
+
+  input[name="comment"]{
+    margin-bottom: 0;
+  }
+
+  .line{
+    width: 100%;
+    background-color: #ccc;
+    
+  }
+
+  .comm_box{
+    padding: 0 20px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px #FD8A69 solid;
+  }
+
+  .nametime {
+    text-align: left;
+  }
+
+  .time{
+    margin : 0;
+    font-size: 0.5rem;
+  }
+
+  .nickname{
+    font-size: 0.8rem;
+
+  }
+
+  .content {
+    margin-bottom: 0;
+  }
